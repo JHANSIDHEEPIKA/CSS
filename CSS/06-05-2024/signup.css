@@ -1,0 +1,28 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: darkred;
+    color: white;
+}
+h1{
+    text-align: center;
+}
+.items{
+    border: 1px solid yellow;
+}
+.container{
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    
+}
+a{
+    border: 1px solid yellow;
+    background-image: linear-gradient(purple, blue);
+    color: white;
+}
+

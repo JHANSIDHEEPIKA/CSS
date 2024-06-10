@@ -1,0 +1,102 @@
+#about{
+    color: cadetblue;
+}
+.android{
+    color:rgba(125, 241, 135, 0.9);
+}
+h4{
+    color: hsla(10, 50%, 50%, 1) !important;
+}
+#ios{
+    color: #1456c7 !important;
+}
+
+#path{
+    color: darkkhaki;
+}
+#container{
+    color: grey;
+}
+#pic{
+    height: 5cm;
+    width: 5cm;
+}
+#pic-2{
+    height: 50mm;
+    width: 40mm;
+}
+#pic-3{
+    height: 2in;
+    width: 2in;
+}
+#pic-4{
+    height: 190px;
+
+}
+#pic-5{
+    height: 200pt;
+    width: 200pt;
+}
+#pic-6{
+    height: 17pc;
+}
+#p-1{
+    height: 15em;
+    
+}
+#p-2{
+    height: 35ex;
+    
+    
+}
+#p-3{
+    height: 200px;
+    width: 20vw;
+}
+#p-4{
+    height: 30vh;
+}
+#p-5{
+    height: 20vmin;
+}
+#p-6{
+    height: 50vmax;
+}
+#p-7{
+    height: 200px;
+    width: 25%;
+}
+#t-1{
+    text-align: center;
+    text-transform: capitalize;
+    text-decoration: underline;
+    color: darkorchid;
+}
+#para{
+    text-indent: 10px;
+    letter-spacing: 2px;
+    line-height: 30px;
+    word-spacing: 5px;
+    white-space: wrap;
+}
+#t-2{
+    text-transform: capitalize;
+    text-shadow: 5px 3px 3px crimson;
+}
+#para-2{
+    column-gap: 60px;
+    column-count: 3;
+}
+#font{
+    color: #2a0b67;
+    text-align: center;
+    text-decoration: underline;
+    
+}
+.box{
+    height: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}

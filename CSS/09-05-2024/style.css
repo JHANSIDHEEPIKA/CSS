@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: crimson;
+    color: white;
+}
+h1{
+    text-align: center;
+    text-decoration: underline;
+}
+h2{
+    text-decoration: underline;
+}
+.img-1:hover{
+    height: 150px;
+    width: 150px;
+    animation: oscillate;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite ;
+    animation-duration: 4s;
+    animation-direction: alternate-reverse;
+
+    
+    
+    
+}
+@keyframes oscillate{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(-90deg);
+    }
+
+}
+.img-2:hover{
+    height: 150px;
+    width: 150px;
+    animation: movement;
+    
+    animation-iteration-count: infinite ;
+    animation-duration: 5s;
+}
+
+@keyframes movement{
+    0%{
+        transform: translate(100px);
+        transform: rotate(0deg);
+    }
+    10%{
+        transform: translate(400px);
+    }
+    20%{
+        transform: translate(600px);
+    }
+    40%{
+        transform: translate(750px);
+    }
+    60%{
+        transform: translate(1000px);
+    }
+    80%{
+        transform: translate(1300px);
+    }
+    100%{
+        transform: translate(1500px);
+        transform: rotate(360deg);
+    }
+}

@@ -1,0 +1,62 @@
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+th, td{
+    padding: 10px;
+    text-align: center;
+    border: 1px solid black;
+    background-color: crimson;
+}
+#container{
+    height: 300px;
+    width: 300px;
+    background-color: deeppink;
+    color: blue;
+    overflow: auto;
+    text-align: center;
+
+}
+.link:link{
+    color: brown;
+}
+.link:visited{
+    color: darkgreen;
+}
+.link:active{
+    color: tomato;
+}
+.link:hover{
+    color: cadetblue;
+}
+q{
+    background-color: aquamarine;
+    display: block;
+}
+h2{
+    background-color: blueviolet;
+    display: inline;
+}
+#para{
+    height: 300px;
+    width: 100px;
+    background-color: black;
+    color: white;
+    display: none;
+}
+#para-2{
+    height: 300px;
+    width: 100px;
+    background-color: black;
+    color: white;
+    visibility: collapse;
+
+}
+.i-1{
+    float: left;
+    margin: 10px;
+}
+.i-2{
+    float: right;
+    margin: 10px;
+}
